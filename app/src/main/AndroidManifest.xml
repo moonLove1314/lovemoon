@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mstarc.lovemoon.activity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".GuideActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BannerActivity" />
+        <activity android:name=".HistoryTodayActivity" />
+        <activity android:name=".HistoryDetailsActivity" />
+        <activity android:name=".NewTopActivity" />
+        <activity android:name=".NewDetailsActivity" />
+        <activity android:name=".TangSongActivity" />
+        <activity android:name=".TangDetailsActivity" />
+        <activity android:name=".JokeActivity" />
+        <activity android:name=".WXActivity" />
+        <activity android:name=".WxDetailsActivity" />
+        <activity android:name=".DigitalReadingActivity" />
+        <activity android:name=".MySwipBackActivity"
+            />
+        <activity android:name=".PageBottomActivity" />
+        <activity android:name=".QQActivity" />
+        <activity android:name=".QWYSActivity" />
+        <activity android:name=".QWYSWebActivity" />
+        <activity android:name=".DiDiActivity" />
+        <activity android:name=".SingleListChoiceActivity" />
+        <activity android:name=".CookClassActivity" />
+        <activity android:name=".TodayActivity" />
+        <activity android:name=".SportClassifyActivity" />
+        <activity
+            android:name=".AlbumActivity"
+            android:label="@string/title_activity_album"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+    </application>
+
+</manifest>

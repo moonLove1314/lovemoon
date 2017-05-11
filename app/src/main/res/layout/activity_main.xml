@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mstarc.lovemoon.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#60000000"
+        android:gravity="center"
+        android:text="轮播图"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <com.example.mstarc.lovemoon.view.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_cube"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Cube格式" />
+
+            <TextView
+                android:id="@+id/tv_alpha"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Alpha格式" />
+            <TextView
+                android:id="@+id/tv_flip"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Flip格式" />
+            <TextView
+                android:id="@+id/tv_fade"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Fade格式" />
+            <TextView
+                android:id="@+id/tv_default"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Default格式" />
+            <TextView
+                android:id="@+id/tv_accordion"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Accoirdion格式" />
+            <TextView
+                android:id="@+id/tv_depth"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Depth格式" />
+            <TextView
+                android:id="@+id/tv_zoomFade"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="zoomFade格式" />
+            <TextView
+                android:id="@+id/tv_stack"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Stack格式" />
+            <TextView
+                android:id="@+id/tv_zoomStack"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="zoomStack格式" />
+            <TextView
+                android:id="@+id/tv_zoom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="Zoom格式" />
+            <TextView
+                android:id="@+id/tv_zoomCenter"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#f0f"
+                android:drawableBottom="@mipmap/list_divider"
+                android:text="zoomCenter格式" />
+
+        </LinearLayout>
+
+
+    </com.example.mstarc.lovemoon.view.BounceScrollView>
+
+
+</RelativeLayout>

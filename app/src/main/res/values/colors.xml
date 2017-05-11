@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#5DA49F</color>
+    <color name="colorPrimary">#6BBEB8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark_white">#99ffffff</color>
+    <color name="touming">#00000000</color>
+    <color name="txt_gray_dark">#737677</color>
+    <color name="top_color">#2a3337</color>
+    <color name="divider_color">#E8E8E8</color>
+    <color name="black">#000000</color>
+    <color name="bg_gray_dark">#d7d7d7</color>
+    <color name="bg_blue">#5792b1</color>
+    <color name="txt_yellow">#f1db8b</color>
+    <color name="bg_yellow_light">#F4F4F4</color>
+    <color name="txt_gray">#585858</color>
+    <color name="line_gray">#d3d3d3</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_yellow">#DAC22A</color>
+    <color name="bg_yellow_lighter">#e6c653</color>
+    <color name="bg_gray_light">#f3f3f3</color>
+    <color name="bg_tansparent">#00000000</color>
+    <color name="index_center_click">#bb60676a</color>
+    <color name="txt_blue">#5691b1</color>
+    <color name="search_gray">#93989a</color>
+    <color name="none_color">#00000000</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="albumback">#E1E0DE</color>
+</resources>
